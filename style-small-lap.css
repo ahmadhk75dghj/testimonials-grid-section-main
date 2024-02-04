@@ -1,0 +1,25 @@
+section {
+    margin: 75px 15px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 'five one one one''five tow tow three''five four four four';
+}
+
+main {
+    height: auto;
+}
+
+.one .title h1,
+.four .title h1 {
+    font-size: 20px;
+}
+
+.one .desc p,
+.four .desc p {
+    font-size: 13px;
+}
+
+.five {
+    justify-content: space-evenly;
+}

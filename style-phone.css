@@ -1,0 +1,17 @@
+section {
+    margin: 75px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 17px !important;
+    margin-top: 15px;
+}
+
+main .desc p {
+    font-size: 12px !important;
+    margin-top: 15px;
+
+}
